@@ -1,0 +1,13 @@
+name: FSInfoMC
+version: '${project.version}'
+main: eu.pxldeveloper.fsinfomc.FSInfoMC
+api-version: 1.19
+
+commands:
+  portal:
+    description: Is used to set the current position of a player as a portal
+    usage: /portal
+    permission: fsinfomc.admin
+  hub:
+    description: Transfers the player back to the lobby server
+    usage: /hub
